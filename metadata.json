@@ -1,0 +1,6 @@
+{
+  "name": "PDFLove — Free Online PDF Tools",
+  "description": "Fast, private, and secure online PDF tools. Merge, split, compress, convert, rotate, unlock, and protect PDF documents directly in your browser with zero file uploads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,739 @@
+MASTER PROMPT: PDFLove.store — Single HTML PDF Tools Website with Advanced SEO, GEO & AI Search Optimization
+
+Act as a senior web developer, technical SEO specialist, GEO (Generative Engine Optimization) specialist, AI Search Optimization expert, UI/UX designer, accessibility engineer, and website performance auditor.
+
+Build a complete, production-ready PDF tools website for:
+
+Website name: PDFLove
+Domain: https://www.pdflove.store/
+Primary goal: Rank competitively on Google for relevant PDF tool keywords and attract organic traffic from Google, Bing, AI search engines, and international users.
+Core requirement: Use a single self-contained "index.html" file with HTML, CSS, and vanilla JavaScript.
+
+Do not promise guaranteed #1 rankings. Implement all practical, legitimate SEO improvements without keyword stuffing, cloaking, fake content, fake reviews, or misleading structured data.
+
+1. STRICT TECHNICAL REQUIREMENTS
+
+- Deliver one complete "index.html" containing HTML, CSS, and JavaScript.
+- No React, Vue, Angular, Bootstrap, Tailwind, jQuery, or unnecessary frameworks.
+- Responsive mobile-first design for Android, iPhone, tablets, laptops, and desktops.
+- Premium, modern PDF SaaS interface with polished cards, subtle gradients, smooth animations, and excellent usability.
+- Light and dark themes.
+- Accessible keyboard navigation, semantic HTML, readable fonts, and proper contrast.
+- No fake buttons, nonfunctional tools, dead links, or unfinished sections.
+- All processing possible in the browser should happen locally when practical.
+- Never upload users' private PDFs to a third party without clear disclosure and consent.
+- Add loading indicators, progress, error handling, success messages, cancel/reset controls, and download results.
+- Do not expose API keys or secrets in frontend JavaScript.
+- Do not claim that unsupported features work.
+
+If a tool genuinely requires a backend, document that limitation and do not pretend that frontend-only code provides server-side processing.
+
+2. MAIN 10 PDF TOOLS
+
+Create these ten primary tools, with dedicated user-facing URLs and distinct, useful content.
+
+1. Merge PDF
+   URL: /merge-pdf/
+   Keyword intent: merge PDF files online, combine PDF documents.
+
+2. Split PDF
+   URL: /split-pdf/
+   Keyword intent: split PDF online, extract PDF pages.
+
+3. Compress PDF
+   URL: /compress-pdf/
+   Keyword intent: compress PDF, reduce PDF file size.
+
+4. PDF to JPG
+   URL: /pdf-to-jpg/
+   Keyword intent: convert PDF to JPG, PDF pages to images.
+
+5. JPG to PDF
+   URL: /jpg-to-pdf/
+   Keyword intent: convert JPG to PDF, images to PDF.
+
+6. PDF to Word
+   URL: /pdf-to-word/
+   Keyword intent: convert PDF to Word, PDF to DOCX.
+
+7. Word to PDF
+   URL: /word-to-pdf/
+   Keyword intent: convert Word to PDF, DOCX to PDF.
+
+8. Rotate PDF
+   URL: /rotate-pdf/
+   Keyword intent: rotate PDF pages online.
+
+9. Unlock PDF
+   URL: /unlock-pdf/
+   Keyword intent: unlock PDF, remove PDF password where authorized.
+
+10. Protect PDF
+    URL: /protect-pdf/
+    Keyword intent: protect PDF, password-protect PDF.
+
+Implement real functionality. Use appropriate browser-compatible libraries only when licensing, reliability, and browser support are verified. Clearly explain limitations for scanned PDFs, OCR, complex DOCX conversion, encryption, and other operations that cannot be reliably implemented in a standalone browser file. Never silently produce corrupted output.
+
+3. IMPORTANT: SINGLE HTML AND UNIQUE URLS
+
+The source code must remain one "index.html" file, but SEO-friendly URLs must be handled correctly.
+
+Preferred approach:
+
+- Configure the hosting platform to rewrite the ten tool paths to the same "index.html".
+- Use JavaScript routing based on "window.location.pathname".
+- Support direct opening and refreshing of every tool URL.
+- Each route must display its own tool interface, title, description, headings, instructions, FAQs, and canonical URL.
+- Internal links must use real crawlable "<a href="/merge-pdf/">" style links.
+- Provide breadcrumbs and contextual links between relevant tools.
+- Use a route-aware document title and meta description.
+
+Critical SEO limitation: If the hosting platform serves the same generic HTML metadata for every URL and search engines only receive identical content, JavaScript routing alone may not provide the strongest SEO performance. Use server-side rendering or static prerendered HTML if later allowed. Do not claim that client-side routing automatically creates fully optimized individual pages.
+
+If the host cannot support clean path rewrites, explain the limitation and provide the best compatible alternative without breaking the single-file requirement.
+
+4. PREMIUM HOMEPAGE
+
+Create the following sections:
+
+- Header with logo, navigation, theme switch, and mobile menu.
+- Hero section: “All Your PDF Tools in One Place.”
+- Supporting text explaining simple, fast, secure PDF processing.
+- Prominent search field: “What do you want to do with your PDF?”
+- Ten tool cards with individual icons, descriptions, and working links.
+- Popular tools section.
+- How PDFLove works: Upload, Process, Download.
+- Privacy and browser-processing explanation.
+- Benefits section based on actual product capabilities.
+- Frequently asked questions.
+- Related tools and contextual internal links.
+- Clear privacy, terms, contact, and about links.
+- Professional footer with copyright year generated dynamically.
+
+Avoid exaggerated speed, security, unlimited file size, or accuracy claims unless verified.
+
+5. TECHNICAL SEO — IMPLEMENT ALL APPLICABLE ITEMS
+
+For the homepage and every tool route, provide:
+
+- Unique, relevant title tags.
+- Unique meta descriptions.
+- Correct canonical URLs.
+- HTML language attribute and appropriate character encoding.
+- Responsive viewport metadata.
+- Semantic H1, H2, and H3 hierarchy.
+- Descriptive image alt text.
+- Crawlable internal navigation links.
+- Correct HTTP status codes where hosting supports them.
+- No accidental "noindex" directives.
+- No duplicate or conflicting canonical tags.
+- Open Graph metadata.
+- Social sharing metadata where useful.
+- Clean URLs without unnecessary query parameters.
+- Correct 404 handling.
+- Robots.txt and XML sitemap deployment guidance.
+- Sitemap entries only for canonical, indexable, working pages.
+- Search Console and Bing Webmaster Tools setup instructions.
+- Google Search Console sitemap submission guidance.
+- Google Analytics only as an optional, privacy-conscious integration.
+- Custom favicon and web app icons.
+- Compression and caching recommendations at the hosting layer.
+- Appropriate redirects and HTTPS canonicalization.
+- Avoid unnecessary third-party scripts and render-blocking resources.
+
+Do not put an XML sitemap or robots.txt inside the HTML and claim that this replaces the real files. Explain how to publish these files separately while keeping the website application in one HTML file.
+
+6. GEO — GENERATIVE ENGINE OPTIMIZATION
+
+Optimize genuinely useful content so search engines and AI answer systems can understand and reference the website.
+
+For every tool page:
+
+- Explain what the tool does.
+- Explain when users should use it.
+- Provide accurate step-by-step instructions.
+- Explain supported file formats and real limitations.
+- Include useful examples and troubleshooting.
+- Answer specific user questions in concise, factual language.
+- Add original information instead of copying competitors.
+- Link to relevant tools and supporting guides.
+- Identify the website and publisher consistently.
+- Include a clear About page, Contact page, Privacy Policy, and Terms page.
+- Make essential content available in crawlable HTML.
+- Do not block legitimate search engine crawlers unnecessarily.
+- Do not create fake authority, fake author credentials, or fabricated testimonials.
+
+Do not promise inclusion in ChatGPT, Gemini, Google AI Overviews, or any other AI answer engine. Do not create a fake "llms.txt" benefit claim or treat it as a Google ranking factor.
+
+7. STRUCTURED DATA
+
+Add only valid, appropriate JSON-LD structured data.
+
+Consider:
+
+- "WebSite" for the website identity.
+- "Organization" where accurate publisher information is available.
+- "BreadcrumbList" for applicable tool pages.
+- "SoftwareApplication" only if the actual implementation meets the requirements and the properties are truthful.
+
+Use accurate URLs and names. Ensure structured data matches visible page content. Do not invent ratings, review counts, prices, awards, business addresses, or author qualifications.
+
+Validate the output with Google's Rich Results Test and Schema Markup Validator. Structured data does not guarantee rich results or higher rankings.
+
+8. PERFORMANCE AND CORE WEB VITALS
+
+Optimize for:
+
+- Largest Contentful Paint (LCP).
+- Interaction to Next Paint (INP).
+- Cumulative Layout Shift (CLS).
+- Low JavaScript execution cost.
+- Minimal layout shifts.
+- Efficient file processing and memory management.
+- Lazy loading of below-the-fold imagery.
+- Proper image dimensions and modern formats.
+- Reduced unnecessary animations.
+- Efficient event listeners and cleanup.
+- Mobile performance on average Android devices.
+
+Aim for Core Web Vitals in the good range, based on real field data where available. Do not fabricate performance scores.
+
+Use PageSpeed Insights and Lighthouse to test the actual deployed site.
+
+9. SECURITY AND PRIVACY
+
+- Validate uploaded file types and sizes.
+- Handle malformed, empty, corrupted, and password-protected PDFs.
+- Use safe DOM APIs instead of injecting untrusted file names as HTML.
+- Avoid arbitrary file uploads to external services.
+- Avoid collecting unnecessary personal information.
+- Clearly explain when files remain on the device and when a service uses remote processing.
+- Provide a privacy policy consistent with actual behavior.
+- Do not store document contents without explicit need and disclosure.
+- Clean up temporary object URLs and unnecessary buffers.
+- Never claim end-to-end encryption unless it is actually implemented and verified.
+
+10. ACCESSIBILITY AND USER EXPERIENCE
+
+- Full keyboard support.
+- Accessible form labels and status messages.
+- Clear focus states.
+- Proper color contrast.
+- Touch-friendly controls.
+- Drag-and-drop plus a conventional file picker.
+- File list with remove/reorder controls where appropriate.
+- Clear progress, error, success, and download states.
+- Responsive layouts without horizontal overflow.
+- Reduced-motion support.
+- No intrusive popups or deceptive advertisements.
+
+11. CONTENT AND KEYWORD STRATEGY
+
+For each of the ten tools, create unique content based on its search intent:
+
+- One clear H1.
+- A concise introduction.
+- Instructions.
+- Supported formats and limitations.
+- Practical use cases.
+- Troubleshooting.
+- Relevant FAQs.
+- Related tool links.
+- A unique SEO title and description.
+
+Use keywords naturally. Avoid repetitive paragraphs, hidden text, doorway pages, and keyword stuffing. Do not copy text from iLovePDF, Smallpdf, Adobe, or other competitors.
+
+12. FINAL DELIVERY
+
+Deliver:
+
+1. The complete, runnable "index.html" source.
+2. A list of all ten routes and their canonical URLs.
+3. A table of titles, descriptions, and primary keyword intent for all routes.
+4. A list of required hosting rewrites and separately deployed SEO files.
+5. A list of libraries used, their licenses, and which features they power.
+6. A functionality test report for all ten tools.
+7. An SEO implementation checklist.
+8. A deployment guide for the existing domain "https://www.pdflove.store/".
+9. A verification checklist covering mobile, desktop, direct route refresh, indexing, accessibility, security, and performance.
+10. A clear list of limitations and anything that still requires hosting configuration or a backend.
+
+Do not stop after generating a mockup. Build the actual implementation, inspect the code for errors, test each tool, fix identified issues, and deliver the complete final source.
+
+The priority is a genuinely useful PDF website, clean technical SEO, strong content quality, excellent user experience, and sustainable organic search growth — not fake SEO scores or ranking guarantees.
+PDFLove.store — COMPLETE SEO + GEO + AEO MASTER IMPLEMENTATION PROMPT
+
+Act as an expert Technical SEO Engineer, Google Search specialist, GEO (Generative Engine Optimization) specialist, AEO (Answer Engine Optimization) specialist, web developer, and independent code auditor.
+
+Website: https://www.pdflove.store/
+
+PRIMARY OBJECTIVE
+
+Audit, fix, and optimize my existing PDFLove.store website for sustainable organic search growth.
+
+I want:
+
+- Complete technical SEO.
+- Individual SEO for all 10 main PDF tools.
+- GEO and AI search visibility optimization.
+- AEO and featured-snippet-friendly content.
+- Correct canonical URLs and internal links.
+- XML sitemap and robots.txt.
+- Google Search Console and Bing Webmaster Tools readiness.
+- Structured data where appropriate.
+- Mobile SEO and Core Web Vitals optimization.
+- Correct indexing and crawling configuration.
+- A clean, professional, production-ready website.
+
+The website must keep a single main "index.html" application using HTML, CSS, and vanilla JavaScript.
+
+IMPORTANT: Never promise a Google #1 ranking. Never invent results, backlinks, indexing status, SEO scores, ratings, reviews, features, or successful tests.
+
+1. AUDIT THE EXISTING WEBSITE FIRST
+
+Inspect the supplied source code and, if website access is available, the live website.
+
+Produce a real audit covering:
+
+- Technical SEO errors.
+- Missing or duplicate title tags.
+- Missing or duplicate meta descriptions.
+- Incorrect canonical URLs.
+- Missing or incorrect H1 headings.
+- Broken internal and external links.
+- Incorrect redirects and 404 errors.
+- Sitemap and robots.txt problems.
+- Duplicate or thin content.
+- JavaScript rendering and crawlability.
+- Incorrect structured data.
+- Mobile usability.
+- Accessibility issues affecting usability.
+- Performance bottlenecks and Core Web Vitals.
+- Security and privacy problems.
+- Unsupported tool functionality.
+- Duplicate URLs, parameters and trailing-slash inconsistencies.
+
+For each finding, report the actual evidence, severity, affected URL, proposed fix, and verification method. Mark anything that cannot be verified as unverified.
+
+Do not stop after the audit. Correct the issues in the supplied code and prepare any required hosting configuration.
+
+2. THE 10 MAIN TOOL URLS
+
+Use these as the intended canonical routes. Verify that each route works before publishing it or including it in the sitemap.
+
+1. "/merge-pdf/"
+2. "/split-pdf/"
+3. "/compress-pdf/"
+4. "/pdf-to-jpg/"
+5. "/jpg-to-pdf/"
+6. "/pdf-to-word/"
+7. "/word-to-pdf/"
+8. "/rotate-pdf/"
+9. "/unlock-pdf/"
+10. "/protect-pdf/"
+
+Homepage: "/"
+
+For each tool, implement a genuinely distinct, useful page with:
+
+- A unique SEO title.
+- A unique meta description.
+- One clear H1.
+- Relevant H2 and H3 headings.
+- Original introductory content.
+- Step-by-step instructions.
+- Supported formats and limitations.
+- Genuine FAQs.
+- Related tool links.
+- Breadcrumb navigation.
+- A self-referencing canonical URL.
+- Appropriate social metadata.
+- Correct indexing directives.
+- Accurate structured data where eligible.
+
+Do not create a route for a feature that does not exist. If a proposed tool is not implemented, clearly report it and do not pretend it works.
+
+3. TECHNICAL SEO
+
+Implement and verify:
+
+- Correct HTML5 semantic structure.
+- UTF-8 character encoding.
+- Responsive viewport.
+- Correct language declaration.
+- Unique title and meta description for each indexable route.
+- Canonical URL consistency.
+- Crawlable "<a href>" links.
+- Correct HTTP status codes.
+- Appropriate HTTPS and preferred-host redirects.
+- Correct trailing-slash handling.
+- No accidental "noindex" or crawler blocking.
+- No conflicting canonical tags.
+- No duplicate indexable URLs.
+- Proper 404 handling.
+- Image dimensions and descriptive alt text.
+- Favicon and web app icons.
+- Open Graph and social sharing metadata where useful.
+- Appropriate cache and compression settings at the hosting layer.
+- Removal of unnecessary scripts and render-blocking resources.
+- No keyword stuffing, hidden text, cloaking or doorway pages.
+
+Do not claim that client-side JavaScript routing alone guarantees that search engines will see unique metadata. If necessary, use static prerendering or another compatible hosting solution while keeping the main application in one HTML file.
+
+4. GEO — GENERATIVE ENGINE OPTIMIZATION
+
+Optimize the real website content so search engines and AI answer systems can understand its tools and information.
+
+For every tool:
+
+- Clearly explain what the tool does.
+- Explain who may find it useful.
+- Give accurate usage instructions.
+- Explain supported formats and limitations.
+- Answer common questions directly.
+- Provide original troubleshooting guidance.
+- Use descriptive headings and natural language.
+- Link to relevant supporting pages.
+- Maintain consistent website identity and branding.
+- Publish accurate About, Contact, Privacy Policy and Terms pages.
+- Make essential information available as crawlable HTML.
+- Avoid unnecessarily blocking legitimate crawlers.
+
+Do not fabricate expertise, citations, testimonials, or brand authority. Do not promise that any AI engine will cite or recommend PDFLove.
+
+5. AEO — ANSWER ENGINE OPTIMIZATION
+
+Structure content to answer genuine search questions clearly.
+
+Examples:
+
+- How do I merge PDF files?
+- How can I split selected PDF pages?
+- How do I reduce PDF file size?
+- How do I convert PDF pages into JPG images?
+- How can I protect a PDF with a password?
+
+For each relevant question:
+
+- Give a concise, accurate answer.
+- Follow it with useful explanation or steps.
+- Include relevant limitations.
+- Link to the correct tool.
+- Avoid repetitive keyword-heavy FAQs.
+- Do not create FAQ content solely to manipulate search rankings.
+
+Use FAQ structured data only when appropriate, but do not promise Google FAQ rich results.
+
+6. XML SITEMAP — REAL FILE REQUIRED
+
+Create a valid "sitemap.xml" for deployment at:
+
+"https://www.pdflove.store/sitemap.xml"
+
+Rules:
+
+- Include only real, canonical, indexable pages that return the intended content.
+- Include the homepage and verified tool routes.
+- Add genuine About, Contact, Privacy and Terms URLs only when those pages exist and should be indexed.
+- Exclude broken routes, redirects, 404s, duplicate URLs, noncanonical pages and "noindex" pages.
+- Use absolute HTTPS URLs on the preferred domain.
+- Do not invent "lastmod" dates.
+- Do not use priority or changefreq as a promise of ranking.
+- Ensure the sitemap follows the official XML sitemap protocol.
+- Validate the XML syntax and URL consistency.
+- Explain exactly where to upload the sitemap.
+- Include the sitemap location in "robots.txt".
+
+Do not place XML sitemap text inside "index.html" and claim that this creates the required sitemap file.
+
+7. ROBOTS.TXT
+
+Create a valid deployable file at:
+
+"https://www.pdflove.store/robots.txt"
+
+Rules:
+
+- Do not block important CSS, JavaScript or required page resources unnecessarily.
+- Do not accidentally block the ten main tool routes.
+- Do not add unsupported or speculative directives.
+- Include the real sitemap URL.
+- Explain how to verify the file after deployment.
+- Do not use robots.txt as a substitute for "noindex" or access control.
+
+8. INDIVIDUAL METADATA
+
+Create a metadata spreadsheet or table covering all 10 tools, including:
+
+- URL.
+- Page title.
+- Meta description.
+- Primary keyword intent.
+- Secondary keyword themes.
+- H1.
+- Canonical URL.
+- Indexability status.
+- Related internal links.
+- Structured data, if applicable.
+- Verification status.
+
+Write natural metadata that accurately describes each feature. Avoid keyword stuffing and arbitrary character-count rules. Ensure every title and description is distinctive and useful.
+
+9. STRUCTURED DATA
+
+Use valid JSON-LD only where applicable.
+
+Consider:
+
+- "WebSite"
+- "Organization", when publisher information is verified
+- "BreadcrumbList", where breadcrumbs are visible
+- "SoftwareApplication", only if the real application meets the requirements and the properties are accurate
+
+Requirements:
+
+- Use the correct canonical URLs.
+- Ensure structured data matches visible content.
+- Do not fabricate ratings, reviews, pricing, awards or organization details.
+- Do not add unrelated schema types merely to increase markup volume.
+- Validate the markup using Google's Rich Results Test and Schema Markup Validator.
+- Report validation results only after running the checks.
+
+10. GOOGLE SEARCH AND BING SETUP
+
+Prepare the website for:
+
+- Google Search Console.
+- XML sitemap submission.
+- URL Inspection.
+- Bing Webmaster Tools.
+- Bing sitemap submission.
+- IndexNow only if supported and correctly implemented.
+- Monitoring indexing coverage, crawl errors and organic search performance.
+
+Do not fabricate verification tokens or claim that a sitemap was submitted without account access and confirmation.
+
+Provide exact steps for completing any verification that requires the website owner's account.
+
+Explain that sitemap submission helps discovery but does not guarantee indexing.
+
+11. PERFORMANCE AND MOBILE SEO
+
+Optimize:
+
+- Core Web Vitals.
+- Largest Contentful Paint (LCP).
+- Interaction to Next Paint (INP).
+- Cumulative Layout Shift (CLS).
+- JavaScript execution.
+- PDF processing memory usage.
+- Image optimization.
+- Responsive layouts.
+- Touch targets.
+- Accessibility.
+- Error handling.
+- Loading states.
+
+Test the actual deployed website with PageSpeed Insights and Lighthouse where access permits.
+
+Do not invent performance scores or claim Core Web Vitals are passing without real measurements.
+
+12. INTERNAL LINKING
+
+Create a useful internal linking structure:
+
+Homepage → all ten main tools.
+
+Each tool page → relevant related tools.
+
+All tool pages → homepage through the logo and navigation.
+
+Provide breadcrumbs where appropriate.
+
+Use descriptive anchor text and avoid repetitive exact-match keyword links. Every internal link must lead to a real page.
+
+13. TRUST, PRIVACY AND SECURITY
+
+Create accurate, functional About, Contact, Privacy Policy and Terms pages.
+
+Explain:
+
+- How PDF files are processed.
+- Whether processing happens locally or on a remote server.
+- Whether uploaded files are transmitted or stored.
+- Actual retention and deletion behavior.
+- Supported file types and limitations.
+- How users can contact the website operator.
+
+Never claim that files stay on the device if the implementation sends them to a server. Never claim encryption or deletion guarantees that have not been verified.
+
+14. SINGLE-FILE DELIVERY AND HOSTING
+
+Deliver:
+
+1. Complete updated "index.html".
+2. "sitemap.xml".
+3. "robots.txt".
+4. A list of any additional required deployment files.
+5. Hosting rewrite and redirect configuration, if needed.
+6. Metadata table for all ten tool URLs.
+7. Structured data implementation.
+8. A complete SEO audit report.
+9. A list of changes made.
+10. A deployment and verification checklist.
+
+Keep the application in one HTML file. Explain clearly that sitemap.xml, robots.txt, hosting rules, and any static prerendered HTML may need separate deployment artifacts.
+
+Do not silently change the hosting platform or break existing domain configuration.
+
+15. FINAL VERIFICATION
+
+Check every tool route for:
+
+- Correct content.
+- Correct title and meta description.
+- Correct canonical URL.
+- Working internal links.
+- Real functionality.
+- Proper HTTP status.
+- Appropriate indexing directives.
+- Valid structured data, if used.
+- Sitemap inclusion only when eligible.
+- Mobile responsiveness.
+- Error-free JavaScript.
+
+Check the homepage, sitemap, robots.txt and required legal pages as well.
+
+Provide a final table with columns:
+"Check | Actual Result | Evidence | Status | Remaining Fix"
+
+Use these status labels:
+
+- PASS: Verified successfully.
+- FAIL: Verified problem found.
+- NOT VERIFIED: Requires access or testing that was unavailable.
+- NOT APPLICABLE: Not relevant to the actual implementation.
+
+Do not label untested work as PASS.
+
+FINAL GOAL: Deliver an honest, technically correct, useful and fast PDF tools website with strong technical SEO, individual tool-page optimization, GEO/AEO-ready content, clean URL architecture and sustainable organic search potential. Never guarantee Google position #1.
+PDFLove.store — FINAL GOOGLE ADSENSE INTEGRATION MASTER PROMPT
+
+Act as a senior web developer, Google AdSense integration specialist, technical SEO expert, and website auditor.
+
+Website: https://www.pdflove.store/
+Website architecture: Single "index.html" containing HTML, CSS and vanilla JavaScript.
+AdSense Publisher ID: "ca-pub-3119328825793675"
+Selected verification method: AdSense Code Snippet only.
+
+1. INTEGRATE MY ACTUAL ADSENSE CODE
+
+Add the following official AdSense code inside the "<head>" section of my existing "index.html":
+
+<script  
+  async  
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3119328825793675"  
+  crossorigin="anonymous">  
+</script>  Use this exact publisher ID from my supplied Google AdSense screenshot.
+
+Implementation requirements:
+
+- Add the script only once in the initial HTML document.
+- Do not insert it repeatedly when navigating between tool routes.
+- Do not add duplicate AdSense scripts.
+- Do not replace the publisher ID with a different or invented ID.
+- Do not expose any secret API keys; the AdSense publisher ID is an account identifier, not a secret API key.
+- Preserve all existing website code and functionality.
+- Do not load the script through multiple components or repeated JavaScript injections.
+- If the same script already exists, verify its publisher ID and keep one correct instance.
+
+2. USE ONLY ONE VERIFICATION METHOD
+
+Use the AdSense Code Snippet method displayed in my screenshot.
+
+Do not implement alternative verification methods in this task:
+
+- Do not add an AdSense verification meta tag.
+- Do not configure ads.txt as a verification method.
+- Do not add unrelated Google site-verification tags.
+
+Do not confuse verification with ad serving. Installing the script does not automatically mean that the website is verified, approved, or displaying ads.
+
+3. PRESERVE MY COMPLETE WEBSITE
+
+Do not rebuild the website from scratch.
+
+Keep all existing:
+
+- Homepage and premium UI/UX.
+- Ten main PDF tools and their actual functionality.
+- Mobile and desktop responsiveness.
+- SEO titles and meta descriptions.
+- Canonical URLs.
+- GEO and AEO content.
+- Internal links and navigation.
+- XML sitemap and robots.txt configuration.
+- Structured data.
+- About, Contact, Privacy Policy and Terms pages.
+- Existing file upload, processing and download functionality.
+
+Inspect the code before editing and ensure the AdSense integration does not break existing JavaScript, routing or PDF processing.
+
+4. ADSENSE AD DISPLAY
+
+Prepare the website for AdSense while keeping the existing interface clean.
+
+- Do not invent ad unit IDs or "data-ad-slot" values.
+- Do not add fake advertisements or empty ad placeholders.
+- Do not place ads where users could accidentally click them instead of PDF upload, processing or download controls.
+- Do not obstruct mobile navigation.
+- Avoid unnecessary layout shifts.
+- Do not encourage users to click advertisements.
+- Respect Google's applicable AdSense policies and consent requirements.
+- Only configure additional ad units or Auto ads when the actual account setup and intended implementation support them.
+
+If ad units have not been created or Auto ads have not been enabled, explain the remaining steps instead of claiming ads are active.
+
+5. TECHNICAL SEO AND PERFORMANCE
+
+Ensure that the integration:
+
+- Does not create duplicate scripts or metadata.
+- Does not change canonical URLs.
+- Does not accidentally block search engine crawlers.
+- Does not break sitemap or robots.txt functionality.
+- Uses asynchronous script loading as shown in the official snippet.
+- Does not introduce unnecessary additional scripts.
+- Does not break mobile responsiveness or Core Web Vitals unnecessarily.
+
+6. DEPLOYMENT AND VERIFICATION
+
+After updating the source code:
+
+1. Deliver the complete updated "index.html".
+2. Explain exactly where the AdSense script was inserted.
+3. Deploy the updated file to the existing website hosting platform.
+4. Open "https://www.pdflove.store/" and inspect the published page source.
+5. Confirm that the AdSense script appears with the correct publisher ID.
+6. Open Google AdSense and select the Code Snippet verification method.
+7. Check the “I've placed the code” checkbox only after the code has actually been published.
+8. Press Verify in the AdSense dashboard.
+9. If verification succeeds and Request review becomes available, submit the review.
+10. Check the dashboard later for the actual review status.
+
+Do not claim that verification or approval succeeded unless Google confirms it.
+
+7. FINAL REPORT
+
+Provide:
+
+- Complete updated "index.html".
+- Confirmation of whether the script already existed or was newly added.
+- The exact location of the script.
+- A checklist of tests actually performed.
+- Any remaining hosting or AdSense dashboard steps.
+- Any errors or limitations found.
+
+Do not fabricate successful tests, approval status, ad impressions, earnings, or ranking improvements.
+
+Final objective: Integrate my real Google AdSense code correctly into PDFLove.store using one verification method, preserve the entire website, and prepare it for Google's verification and review process.
